@@ -29,7 +29,7 @@ interface ProportionData {
   pdfname: string;
 }
 
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://gia-report-backend.onrender.com";
 
 const ReportProcessor = () => {
   const fileInputRef = useRef<HTMLInputElement>(null);
